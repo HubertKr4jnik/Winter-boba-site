@@ -8,5 +8,7 @@ Website built for Hackclub winter boba with pure HTML, CSS and a bit of JS
     <br />
 </div>
 
-See it under this url: <a href=""></a>
+![project-image](https://github.com/user-attachments/assets/2530d5dc-a61e-4191-a67c-339f1ab88b3b)
+
+See it under this url: https://winter-boba-site.vercel.app/<a href="https://winter-boba-site.vercel.app/"></a>
 <hr/>
