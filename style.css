@@ -18,7 +18,7 @@
 }
 
 body{
-    background: url(bg.jpg) rgba(0, 0, 0, .6);
+    background: url(images/bg.jpg) rgba(0, 0, 0, .6);
     background-blend-mode: darken;
     padding: 0;
     margin: 0;
