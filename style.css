@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(25,32,48,255);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: hsl(173, 26%, 55%);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: hsl(173, 26%, 45%);
+}
+
+body{
+    background: url(bg.jpg) rgba(0, 0, 0, .6);
+    background-blend-mode: darken;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", serif;
+    box-sizing: border-box;
+}
+
+header{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-self: center;
+    padding: .5em 0;
+    background-color: hsl(173, 26%, 55%);
+    text-align: center;
+    border-radius: 0 0 1em 1em;
+}
+
+header h1, p{
+    margin: 0;
+}
+
+header p{
+    font-size: 1.2em;
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.item{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    place-items: center;
+    color: hsl(0, 0%, 80%);
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: .5em;
+    margin-top: 2em;
+}
+
+.item p{
+    padding-right: 3em;
+}
+
+.item img{
+    height: 255px;
+    border-radius: .5em;
+}
+
+main h1{
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+#bobaContainer{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    background-color: rgba(217,198,228,255);
+    width: 80%;
+    border-radius: 1em;
+}
+
+#boba{
+    height: 15em;
+    border-radius: 50%;
+}
+
+.snowflake{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    z-index: 1;
+    font-size: 1.5em;
+    animation: snowfall 10s linear infinite;
+}
+
+@keyframes snowfall{
+    0%{
+        opacity: 0;
+        transform: translateY(0vh) rotate(0deg);
+    }
+    1%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(150vh) rotate(360deg);
+    }
+}
