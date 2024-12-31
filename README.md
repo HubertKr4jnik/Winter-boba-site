@@ -11,5 +11,6 @@
 
 ![project-image](https://github.com/user-attachments/assets/2530d5dc-a61e-4191-a67c-339f1ab88b3b)
 
-See it under this url: https://winter-boba-site.vercel.app/<a href="https://winter-boba-site.vercel.app/"></a>
+See it under this url: https://hubertkr4jnik.github.io/Winter-boba-site/<a href="https://hubertkr4jnik.github.io/Winter-boba-site/"></a>
+
 <hr/>
